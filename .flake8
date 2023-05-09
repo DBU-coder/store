@@ -1,0 +1,11 @@
+[flake8]
+exclude =
+    migrations
+
+extend-ignore = I101, I202, E402, I100
+
+max-line-length = 120
+
+max-complexity = 10
+
+import-order-style = google
